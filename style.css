@@ -1,0 +1,87 @@
+body {
+  background-color: #eff2f5;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  color: #577499;
+  font-family: 'Lucida grande', sans-serif;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #577499;
+  color: white;
+  padding: 20px 7px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #0d3973;
+}
+
+.fab {
+  text-decoration: none;
+  color: #7eb6ff;
+  font-size: 30px;
+}
+
+.fab:hover {
+  color: #1b59ab
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 50px;
+  border: 1px solid white;
+  margin: 25px;
+  box-shadow: 5px 5px 3px lightgrey;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
